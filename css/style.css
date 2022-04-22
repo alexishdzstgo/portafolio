@@ -1,0 +1,435 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #34b0be1e;
+    color: #000;
+    font-family: 'Rubik', sans-serif;
+}
+h1{
+    font-size: 26px;
+}
+h2{
+    font-size: 21.5px;
+}
+.contenedor{
+    background-color: aliceblue;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(39, 60px);
+}
+.contenedor .menu{
+    grid-column: 1/-1;
+    grid-row: 1/2;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .5rem 1.25rem;
+
+}
+nav > label > img{
+    width: 24px;
+}
+input#menu-hamburguesa{
+    visibility: hidden;
+}
+.presentacion1{
+    grid-column: 1/8;
+    grid-row: 2/8;
+}
+.presentacion1 #vector1{
+    margin-top: -25px;
+    width: 37%;
+    height: 95px;
+    margin-left: 10px;
+}
+.presentacion1 #vector2{
+
+ float: left;
+}
+
+.presentacion1 #boxperfil{
+    position: absolute;
+   width: 58%;
+   height: 50%;
+   }
+.presentacion1 #boxperfil #vector3{
+    margin-top: -70px;
+    width: 202px;    
+   }
+
+.presentacion2{
+    grid-column: 8/-1;
+    grid-row: 2/5;
+}
+.presentacion2 #hola{
+    margin-top: 26px;
+    color: #FF4F6F;
+}
+.presentacion2 #full{
+    margin-top: 15px;
+}
+.presentacion2 #dev{
+    margin-top: 5px;
+    font-size: 30px;
+}
+
+  #circle1 {
+      float: left;
+    width: 30px;
+    height: 30px;
+    border: 2.5px solid #34B0BE;
+    border-radius: 50%;
+    margin-top: 15px;
+    position: absolute;
+  }
+  #circle2 {
+    width: 30px;
+    height: 30px;
+    border: 2.5px solid #34B0BE;
+    border-radius: 50%;
+    margin-top: 15px;
+    position: absolute;
+    margin-left: 51px;
+  }
+  #circle3 {
+    width: 30px;
+    height: 30px;
+    border: 2.5px solid #34B0BE;
+    border-radius: 50%;
+    margin-top: 15px;
+    position: absolute;
+    margin-left: 101px;
+  }
+
+.icons{
+    display: flex;
+    grid-column: 8/-1;
+    grid-row: 5/6;
+}
+.icons #linkend{
+    width: 24px;
+    margin-top: 8px;
+    margin-left: 6px;
+}
+.icons #insta{
+    width: 24px;
+    margin-top: 8px;
+    margin-left: 26px;
+}
+.icons #twitter{
+    width: 24px;
+    margin-top: 8px;
+margin-left: 26px;
+}
+.line{
+
+    grid-column: 8/-1;
+    grid-row: 6/7;
+}
+.line #draw{
+  height: 3px;
+  width: 96%;
+  background-color: #e5e5e5;
+  margin-left: 2%;
+  margin-top: 5px;
+}
+.line #contactme{
+    margin-right: 20px;
+    background-color: #FF4F6F;
+    width: 70%;
+    height: 25px;
+}
+.contactme{
+    grid-column: 8/-1;
+    grid-row: 7/8;
+}
+.contactme #box{
+    margin-top: -20px;
+    background-color: #FF4F6F;
+    width: 90%;
+    height: 30px;
+    margin-left: 5%;
+    border-radius: 0 100px 100px 0;
+}
+.contactme img{
+    color: aliceblue;
+    width: 30px;
+}
+.contactme #textcontact{
+    position: absolute;
+    margin-top: -28px;
+    margin-left: 35px;
+    color: white;
+}
+.servicios{
+    grid-column: 1 / 8;
+    grid-row: 8 / 9;
+    
+}
+.servicios #tituloserv{
+    margin-top: 20px;
+    display: flex;
+    margin-left: 10%;
+    color: #FF4F6F;
+}
+.next{
+    grid-column: 8/-1;
+    grid-row: 8/9;
+}
+.next #circle4{
+    margin-left: 10px;
+    margin-top: 23px;
+    background-color: #e5e5e5;
+    float: left;
+    width: 20px;
+    height: 20px;
+    border: 2.5px solid #e5e5e5;
+    border-radius: 50%;
+}
+.next #circle5{
+    margin-top: 23px;
+    background-color: #ff4f6f;
+    float: left;
+    width: 20px;
+    height: 20px;
+    border: 2.5px solid #ff4f6f;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+.next #left{
+    width: 15px;
+    margin-top: 27px;
+    margin-left: -65px;
+
+}
+.next #right{
+    width: 15px;
+    margin-top: 27px;
+    margin-left: 25px;
+}
+.serviciosimgs{
+    grid-column: 1/-1;
+    grid-row: 9/13;
+    
+}
+.clservicios{
+    background-color: #fff;
+    margin-top: 20px;
+    float: left;
+    width: 44%;
+    margin-left: 4%;
+}
+.centrarimgsserv{
+    text-align: center;
+
+}
+
+.descripcionserv{
+    text-align: center;
+    color: #e5e5e5;
+}
+.sobremi{
+    grid-column: 1/7;
+    grid-row: 13/16;
+}
+.sobremi #sobremitext{
+    margin-top: 20px;
+    margin-left: 10%;
+    color: #FF4F6F;
+}
+.sobremiimg{
+    grid-column: 7/-1;
+    grid-row: 13/16;
+}
+.sobremiimg #img84{
+    width: 170px;
+    margin-left: 10%;
+}
+.infosobremi{
+    grid-column: 1/-1;
+    grid-row: 16/18;
+}
+.infosobremi #informacion{
+    font-size: 18px;
+    text-align: center;
+    color: #adadad;
+    margin-top: -30px;
+}
+.imgacademica{
+    grid-column: 1/-1;
+    grid-row: 18/21;
+}
+.imgacademica .infoacademica{
+    float: left;
+    width: 41%;
+    height: 100%;
+    margin-left: 6%;
+    text-align: center;
+    color: #adadad;
+}
+.imgacademica .infoacademica #uvm{
+    margin-top: 30px;
+    justify-content: center;
+    width: 80px;
+}
+.imgacademica .infoacademica #academlo{
+    margin-top: 10px;
+    justify-content: center;
+    width: 80px;
+}
+.imgacademica .infoacademica #negrita{
+    font-weight: bold;
+}
+.thabilidades{
+    grid-column: 1/-1;
+    grid-row: 21/23;
+}
+.tituloseccion{
+    padding-top: 20px;
+    color: #FF4F6F;
+    margin-left: 5%;
+}
+.sechabilidades{
+    grid-column: 1/-1;
+    grid-row: 23/29;
+}
+.sechabilidades .contenthabilidades{
+    margin-top: 5px;
+    background-color: #fff;
+    margin-left: 10%;
+    width: 80%;
+    height: 80px;
+}
+.sechabilidades .contenthabilidades .cuadro{
+    background-color: #fff;
+    width: 35%;
+    height: 90%;
+    float: left;
+}
+.sechabilidades .contenthabilidades .cuadro #porcentaje1{
+    background-color: #34B0BE;
+    width: 95%;
+    height: 5px;
+}
+.sechabilidades .contenthabilidades .cuadro #porcentaje2{
+    background-color: #34B0BE;
+    width: 70%;
+    height: 5px;
+}
+.sechabilidades .contenthabilidades .cuadro #porcentaje4{
+    background-color: #34B0BE;
+    width: 80%;
+    height: 5px;
+}
+.sechabilidades .contenthabilidades .cuadro .porcentajetext{
+    margin-top: 15px;
+    color: #34B0BE;
+    text-align: center;
+    font-size: 40px;
+}
+.sechabilidades .contenthabilidades .cuadro2{
+    width: 100%;
+    height: 90%;
+
+}
+.sechabilidades .contenthabilidades .cuadro2 .paramargen{
+    background-color: #ffffff;
+    width: 100%;
+    height: 40%;
+
+}
+.sechabilidades .contenthabilidades .cuadro2 .descripcionhabilidades{
+    font-size: 18px;
+    font-weight: bold;
+}
+.tportafolio{
+    grid-column: 1/-1;
+    grid-row: 29/31;
+}
+.portafolio{
+    grid-column: 1/-1;
+    grid-row: 31/35;
+}
+.portafolio .portafolioimg{
+    background-color: #fff;
+    width: 38%;
+    float: left;
+    margin-left: 8%;
+}
+.portafolio .portafolioimg .descripcionport{
+    margin-left: 5%;
+    font-size: 18px;
+}
+.tcontacto{
+    grid-column: 1/-1;
+    grid-row: 35/36;
+}
+.contacto{
+    grid-column: 1/-1;
+    grid-row: 36/39;
+}
+.contacto .contentcontacto{
+    text-align: center;
+    
+}
+.contacto .contactoimg{
+    background-color: #fff;
+    width: 35%;
+    height: 90%;
+    float: left;
+    margin-left: 10%;
+}
+.contacto .contactoimg .contentcontacto .contactosvg{
+    width: 40px;
+    margin-top: 10%;
+    text-align: center;
+}
+.contacto .contactoimg .contentinfo{
+    width: 100%;
+    text-align: center;
+}
+.contentinfo .descripcionport{
+    margin-top: 10px;
+    font-size: 16px;
+}
+.contentinfo .celular{
+    margin-top: 10px;
+    color: #adadad;
+}
+@media only screen and (min-width: 400px) {
+    .presentacion1 #vector2{width: 234px;}
+    .presentacion1 #boxperfil #vector3{margin-left: 5%;}
+    .portafolio .portafolioimg{width: 38%;margin-left: 8%;}
+  }
+  @media only screen and (min-width: 600px) {
+    .presentacion1 #vector2{width: 260px; margin-left: 20%;}
+    .presentacion1 #boxperfil #vector3{margin-left: 25%;width: 220px;}
+    .portafolio .portafolioimg{width: 34%;margin-left: 10%;}
+  }
+  @media only screen and (min-width: 768px) {
+    .presentacion1 #vector2{width: 300px; margin-left: 15%;}
+    .presentacion1 #boxperfil #vector3{margin-left: 22%; width: 246px;}
+    .portafolio .portafolioimg{width: 28%;margin-left: 14%;}
+    .clservicios{width: 30%;margin-left: 13%;}
+    .presentacion2 #hola{font-size: 40px;}
+  }
+  @media only screen and (min-width: 992px) {
+    .presentacion1 #vector2{width: 300px; margin-left: 20%;}
+    .presentacion1 #boxperfil #vector3{margin-left: 25%;width: 247px;}
+    .portafolio .portafolioimg{width: 23%;margin-left: 16%;}
+    .clservicios{width: 20%;margin-left: 20%;}
+    .presentacion2 #hola{font-size: 50px;}
+
+  }
+  @media only screen and (min-width: 1200px) {
+    .presentacion1 #vector2{width: 350px; margin-left: 20%;margin-top: -50px;}
+    .presentacion1 #boxperfil #vector3{margin-left: 25%;width: 247px;}
+    .portafolio .portafolioimg{width: 21%;margin-left: 18%;}
+    .presentacion2 #hola{font-size: 50px;}
+    .presentacion2 #full{font-size: 30px;}
+    .presentacion2 #dev{font-size: 40px;}
+  }
